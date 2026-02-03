@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.mainhand": {
+        "items": "minecraft:compass",
+        "predicates": {
+          "minecraft:custom_data": "{bt_compass:1b}"
+        }
+      }
+    }
+  }
+}
